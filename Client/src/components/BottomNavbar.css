@@ -12,6 +12,48 @@
   .navbar-text {
     font-size: 15px;
   }
+
+  .about-me-title {
+    width: 50% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 0px !important;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem !important;
+    
+    letter-spacing: 2px;
+    padding: 0.2rem 0.8rem !important;
+
+    
+  }
+
+  .about-me-description {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+
+    width: 100%; /* Ensure the container takes up the full width */
+    max-width: 100%; /* Prevent overflow */
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal; /* Allow text to wrap normally */
+
+  }
+
+  .highlight {
+    color: #c1ef7b;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -37,6 +79,13 @@
 
   .navbar-text {
     font-size: 20px;
+  }
+
+  .about-me-description {
+    font-size: 68px;
+    line-height: 68px;
+    font-weight: 700;
+
   }
 }
 
