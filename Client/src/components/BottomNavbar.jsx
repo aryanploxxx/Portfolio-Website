@@ -4,11 +4,11 @@ import { RiHome2Fill } from "react-icons/ri";
 
 const BottomNavbar = () => {
   return (
-    <div className="flex flex-row justify-between items-center bottom-navbar text-2xl text-white p-5 border border-white/30 rounded-xl bg-white/10 backdrop-blur-sm shadow-lg">
-        <RiHome2Fill />
+    <div className="flex flex-row justify-between items-center bottom-navbar text-white px-5 py-4 border border-white/30 rounded-xl bg-white/10 backdrop-blur-sm shadow-lg">
+        <RiHome2Fill className="navbar-icon text-xl"/>
         <ResumeCard />
-        <span className="text-md">contact</span>
-        <span className="text-md">projects</span>
+        <span className="navbar-text  poppins-medium">contact</span>
+        <span className="navbar-text  poppins-medium">projects</span>
     </div>
   )
 }

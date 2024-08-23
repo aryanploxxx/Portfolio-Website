@@ -4,6 +4,14 @@
   .bottom-navbar {
     width: 80%;
   }
+
+  .navbar-icon {
+    font-size: 20px;
+  }
+
+  .navbar-text {
+    font-size: 15px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -21,6 +29,14 @@
   /* Styles for large devices go here */
   .bottom-navbar {
     width: 30%;
+  }
+
+  .navbar-icon {
+    font-size: 20px;
+  }
+
+  .navbar-text {
+    font-size: 20px;
   }
 }
 
