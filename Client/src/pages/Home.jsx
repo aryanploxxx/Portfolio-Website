@@ -1,5 +1,6 @@
 import AboutMe from "../components/AboutMe"
 import BottomNavbar from "../components/BottomNavbar"
+import InfiniteText from "../components/InfiniteText"
 import LandingPage from "../components/LandingPage"
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
       
       <LandingPage />
       <AboutMe />
-    
+      <InfiniteText />
       
       
       

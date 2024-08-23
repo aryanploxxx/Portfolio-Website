@@ -1,0 +1,16 @@
+.moving-text-container::-webkit-scrollbar {
+    display: none;
+} 
+
+.moving-text {
+    animation: moving 15s linear 0s infinite forwards;
+}
+
+@keyframes moving {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
