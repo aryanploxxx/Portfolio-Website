@@ -13,6 +13,10 @@
     font-size: 15px;
   }
 
+  .about-me-container {
+    width: 80% !important;
+  }
+
   .about-me-title {
     width: 50% !important;
     display: flex;
@@ -68,6 +72,15 @@
 
   .projects-container {
     margin-top: 100px;
+    width: 85% !important;
+  }
+
+  .contact-me-wrapper {
+    width: 80% !important;
+  }
+
+  .contact-me-title {
+    width: 55% !important;
   }
 }
 

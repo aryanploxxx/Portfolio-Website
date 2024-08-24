@@ -4,6 +4,7 @@
 
 body {
     background-image: url('./assets/peakpx4.jpg');
+    /* background: #000; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
