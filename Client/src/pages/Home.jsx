@@ -2,6 +2,7 @@ import AboutMe from "../components/AboutMe"
 import BottomNavbar from "../components/BottomNavbar"
 import InfiniteText from "../components/InfiniteText"
 import LandingPage from "../components/LandingPage"
+import Projects from "../components/Projects"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <LandingPage />
       <AboutMe />
       <InfiniteText />
+      <Projects />
       
       
       

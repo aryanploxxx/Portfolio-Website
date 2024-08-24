@@ -3,7 +3,7 @@
 } 
 
 .moving-text {
-    animation: moving 15s linear 0s infinite forwards;
+    animation: moving 10s linear 0s infinite forwards;
 }
 
 @keyframes moving {
