@@ -56,7 +56,18 @@
   }
 
   .moving-text-container {
+    font-size: 20px !important;
+    padding: 0 !important;
+  }
+
+  .skillsTab {
     font-size: 15px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  } 
+
+  .projects-container {
+    margin-top: 100px;
   }
 }
 
@@ -86,7 +97,7 @@
   }
 
   .about-me-description {
-    font-size: 68px;
+    font-size: 60px;
     line-height: 68px;
     font-weight: 700;
 

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({url, name, githubLink, externalLink}) => {
     return (
-      <div className="w-[49%] p-1 border border-white/30 rounded-xl bg-white/10 backdrop-blur-md shadow-lg mb-4">
+      <div className="w-[calc(100%-2rem)] mx-4 md:w-[49%] md:mx-0 p-1 border border-white/30 rounded-xl bg-white/10 backdrop-blur-md shadow-lg mb-4">
         
         <div className="relative h-full group">
           
@@ -42,4 +42,3 @@ const ProjectCard = ({url, name, githubLink, externalLink}) => {
   };
   
   export default ProjectCard;
-  

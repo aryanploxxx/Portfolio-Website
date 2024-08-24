@@ -28,7 +28,7 @@ const Skills = () => {
     ]
 
     return (
-        <div className="mt-[70px] mb-[170px] flex flex-col flex-wrap justify-center items-left gap-5 text-white">
+        <div className="mt-[70px] flex flex-col flex-wrap justify-center items-left gap-5 text-white">
             <div className="flex flex-wrap justify-center">
                 {
                     skillsArray.map((skill, index) => (
