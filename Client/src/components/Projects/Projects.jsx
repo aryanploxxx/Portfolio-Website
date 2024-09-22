@@ -4,7 +4,7 @@ import buzzvibe from '../../assets/project_images/buzzvibe.jpg'
 import kioskmeet from '../../assets/project_images/kioskmeet.jpg'
 import widgetwall from '../../assets/project_images/widgetwall.jpg'
 import compilex from '../../assets/project_images/compilex.jpg'
-import squadspeak from '../../assets/project_images/squadSpeak.jpg'
+import squadspeak from '../../assets/project_images/squadspeak.jpg'
 import jobspool from '../../assets/project_images/jobspool.jpg'
 
 import ProjectCard from './ProjectCard'
