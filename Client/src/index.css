@@ -13,6 +13,11 @@ body {
 }
 
 @font-face {
+  font-family: 'Gilroy';
+  src: url(./assets/fonts/Gilroy-Regular.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'PolySansGX';
   src: url(./assets/fonts/PolySansGX.ttf) format('truetype');
 }
