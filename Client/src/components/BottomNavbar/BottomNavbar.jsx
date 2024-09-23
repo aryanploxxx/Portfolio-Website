@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const BottomNavbar = () => {
   return (
-    <div className="bottom-navbar PolySansSlim flex flex-row justify-between items-center text-[#1d1d1d] px-5 py-3 border border-white/30 rounded-xl bg-[#fbfdfd] backdrop-blur-lg shadow-lg">
+    <div className="bottom-navbar border border-black/30 PolySansSlim flex flex-row justify-between items-center text-[#1d1d1d] px-5 py-3 rounded-xl bg-[#fbfdfd] backdrop-blur-lg shadow-xl">
         
         <Link to="home" smooth={true} duration={500}>
           <RiHome3Line className="navbar-icon text-2xl cursor-pointer"/>

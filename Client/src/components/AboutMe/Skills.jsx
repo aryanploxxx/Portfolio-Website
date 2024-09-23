@@ -1,7 +1,10 @@
 import SkillTab from "./SkillTab"
 import { SiCplusplus, SiJavascript, SiMysql, SiHtml5, SiCss3, SiNodedotjs, SiReact, SiExpress, SiTailwindcss, SiGit, SiGithub, SiDocker, SiVisualstudiocode, SiMongodb, SiWindows, SiLinux } from 'react-icons/si'
 import { FaDatabase } from 'react-icons/fa'
-import { MdLeaderboard, MdGroups, MdEvent } from 'react-icons/md'
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiRedis } from "react-icons/di";
+import { RiNextjsFill } from "react-icons/ri";
+
 import "./AboutMe.css"
 
 const Skills = () => {
@@ -13,6 +16,7 @@ const Skills = () => {
         { name: "CSS", icon: SiCss3 },
         { name: "NodeJS", icon: SiNodedotjs },
         { name: "React", icon: SiReact },
+        { name: "NextJS", icon: RiNextjsFill },
         { name: "ExpressJS", icon: SiExpress },
         { name: "TailwindCSS", icon: SiTailwindcss },
         { name: "Git", icon: SiGit },
@@ -20,16 +24,15 @@ const Skills = () => {
         { name: "Docker", icon: SiDocker },
         { name: "Visual Studio Code", icon: SiVisualstudiocode },
         { name: "MongoDB", icon: SiMongodb },
+        { name: "PostgreSQL", icon: BiLogoPostgresql },
         { name: "MySQL", icon: SiMysql },
+        { name: "Redis", icon: DiRedis },
         { name: "Windows", icon: SiWindows },
         { name: "Linux", icon: SiLinux },
-        { name: "Leadership", icon: MdLeaderboard },
-        { name: "Teamwork", icon: MdGroups },
-        { name: "Event Management", icon: MdEvent }
     ]
 
     return (
-        <div className="flex flex-col flex-wrap justify-center items-left gap-5 text-black w-[90%]">
+        <div className="flex flex-col flex-wrap justify-center items-left gap-5 text-black w-[80%]">
             <p className="mt-[70px] about-me-title PolySansBulky text-5xl flex flex-row justify-center items-center text-black">
             Skills
             </p>

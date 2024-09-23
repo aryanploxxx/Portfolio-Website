@@ -17,7 +17,7 @@ const LandingPage = () => {
 
   return (
     <div className="overflow-hidden h-screen w-screen text-7xl" style={defineBG}>
-      <div className='overflow-hidden flex flex-col w-full justify-center items-center'>
+      <div className='relative overflow-hidden flex flex-col w-full justify-center items-center'>
         
         <div className='flex flex-col justify-center items-center relative top-14 w-full'>
           
