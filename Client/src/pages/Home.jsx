@@ -15,7 +15,7 @@ const Home = () => {
         <LandingPage />
       </Element>
       
-      <Element name="about" className="w-screen mt-28 flex justify-center rounded-t-[50px]">
+      <Element name="about" className="w-screen mt-20 flex justify-center rounded-t-[50px]">
         <AboutMe />
       </Element>
 

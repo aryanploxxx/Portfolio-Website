@@ -9,7 +9,8 @@
     font-size: 2.5rem !important;
   }
   .ui-avatar {
-    width: 360px !important;
+    margin-top: 2rem !important;
+    width: 370px !important;
   }
 
 }
@@ -25,7 +26,8 @@
     font-size: 3.5rem !important;
   }
   .ui-avatar {
-    width: 350px !important;;
+    margin-top: 2rem !important;
+    width: 370px !important;
   }
 }
 
@@ -67,5 +69,6 @@
   }
   .ui-avatar {
     width: 30% !important;
+    margin-top: 2rem !important;
   }
 }

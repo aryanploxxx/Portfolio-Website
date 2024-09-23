@@ -29,11 +29,11 @@ const Skills = () => {
     ]
 
     return (
-        <div className="flex flex-col flex-wrap justify-center items-left gap-5 text-black w-[70%]">
+        <div className="flex flex-col flex-wrap justify-center items-left gap-5 text-black w-[90%]">
             <p className="mt-[70px] about-me-title PolySansBulky text-5xl flex flex-row justify-center items-center text-black">
             Skills
             </p>
-            <div className="flex flex-wrap justify-center PolySansSlim">
+            <div className="border border-black/10 p-10  rounded-2xl bg-white shadow-lg flex flex-wrap justify-center PolySansSlim">
                 {
                     skillsArray.map((skill, index) => (
                         <SkillTab key={index} name={skill.name} icon={skill.icon} />
