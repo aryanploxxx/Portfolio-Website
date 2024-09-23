@@ -2,7 +2,7 @@
 import { RiExternalLinkLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const ProjectCard = ({source, name, githubLink, externalLink, firebase}) => {
     return (
@@ -39,12 +39,12 @@ const ProjectCard = ({source, name, githubLink, externalLink, firebase}) => {
         
         <div className="flex flex-row gap-2">
           {externalLink && (
-            <Link to={externalLink} className={"m-3 mr-0 " + (githubLink ? "w-1/2 " : "w-full ") + " flex flex-row justify-center items-center"}>
+            <a href={externalLink} target="_blank" rel="noopener noreferrer" className={"m-3 mr-0 " + (githubLink ? "w-1/2 " : "w-full ") + " flex flex-row justify-center items-center"}>
             <Button className="w-full flex flex-row justify-center items-center">
               <RiExternalLinkLine className="mr-2 text-xl text-white cursor-pointer rounded-full bg-black"/>
               Link
             </Button>
-            </Link>
+            </a>
           )}
 
           {githubLink && (

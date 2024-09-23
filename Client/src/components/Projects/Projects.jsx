@@ -20,7 +20,7 @@ const Projects = () => {
       <div className='flex flex-col flex-wrap'>
 
           <div className='flex flex-row gap-5 flex-wrap justify-center'>
-            <ProjectCard firebase="Firebase" source={buzzvibe} name="BuzzVibe - Social Media Application" githubLink="https://github.com/aryanploxxx/BuzzVibe-Social-Media-Application" externalLink="https://widget-wall-chrome-extension.vercel.app/"/>
+            <ProjectCard firebase="Firebase" source={buzzvibe} name="BuzzVibe - Social Media Application" githubLink="https://github.com/aryanploxxx/BuzzVibe-Social-Media-Application" externalLink="https://buzzvibe-social-media-aryan.vercel.app/"/>
             <ProjectCard source={widgetwall} name="Productivity Management Chrome Extension" githubLink="https://github.com/aryanploxxx/WidgetWall-Chrome-Extension" externalLink="https://widget-wall-chrome-extension.vercel.app/"/>
             <ProjectCard source={jobspool} name="JobsPool - Job Search Platform" githubLink="https://github.com/aryanploxxx/Jobs-Portal-React" externalLink="https://aryan-jobs-portal-frontend.vercel.app/"/>
          
